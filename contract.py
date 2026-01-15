@@ -1,6 +1,4 @@
 """
-CSC148, Winter 2024
-Assignment 1
 
 This code is provided solely for the personal and private use of
 students taking the CSC148 course at the University of Toronto.
@@ -168,24 +166,24 @@ class TermContract(Contract):
         # If the duration is under how many minutes the customer has for that
         # month, don't charge the customer, and update free minutes since they
         # use them in this call
-        if billed <= self._free_min_track != 0:
+        #Hidden code
             # Update bill for how many free minute customer **used**
-            self.bill.add_free_minutes(billed)
+           
 
             # Update my tracker of how many free minutes customer has **left**
-            self._free_min_track -= billed
-        else:
+            #Hidden Code
+        
             # If the duration is more than the free minutes customer
             # has left, charge them with the remaining minutes
-            self.bill.add_billed_minutes(int(billed - self._free_min_track))
+            # Hidden Code
+
 
             # Customer has used up all their remaining free minutes, so update
             # bill to indicate
-            self.bill.add_free_minutes(int(self._free_min_track))
+            # Hidden code
 
             # Since all free minutes are used, update my tracker
-            self._free_min_track = 0
-
+            # Hidden code
     def cancel_contract(self) -> float:
         """ Return the amount owed in order to close the phone line associated
         with this contract. If cancelled on or after end date of contract, term
