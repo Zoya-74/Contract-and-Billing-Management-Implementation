@@ -1,6 +1,4 @@
 """
-CSC148, Winter 2024
-Assignment 1
 
 This code is provided solely for the personal and private use of
 students taking the CSC148 course at the University of Toronto.
