@@ -19,7 +19,8 @@ There's quite a bit in this file, but you aren't responsible for most of it.
 It also contains the Map class, which is responsible for converting between
 longitude/latitude coordinates and pixel coordinates on the pygame window.
 
-DO NOT CHANGE ANY CODE IN THIS FILE, unless instructed in the handout.
+THIS IS THE PROVIDED VISUALIZER FILE BY THE INSTRUCTOR. The visualizer is not my own code, it utilizes 
+my implementation of the billing management system to visualize calls on a map.
 """
 import math
 import os
